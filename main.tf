@@ -7,6 +7,7 @@ resource "aws_s3_bucket" "this" {
     Hash        = "abc123"
     Hash1       = "abc123"
     Hash2       = "abc123"
+    Hash3       = "abc123"
   }
 }
 
