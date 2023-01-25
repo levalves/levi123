@@ -6,6 +6,7 @@ resource "aws_s3_bucket" "this" {
     Environment = "Dev"
     Hash        = "abc123"
     Hash1       = "abc123"
+    Hash2       = "abc123"
   }
 }
 
