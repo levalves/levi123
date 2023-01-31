@@ -4,6 +4,7 @@ resource "aws_s3_bucket" "this" {
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
+    Data	= "25/Jan/2023"
     Hash        = "abc123"
     Hash1       = "abc123"
     Hash2       = "abc123"
